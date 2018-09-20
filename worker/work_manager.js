@@ -1,7 +1,7 @@
 try {
 var web_worker_limit = 1;   // how many web workers do you want the client to run?
 var workers = new Array();
-var debug = false;          // if true you will see console messages from work manager and worker
+var debug = true;          // if true you will see console messages from work manager and worker
 
 /**
  * Periodically gets work from the public w.php script.  Make sure you are doing requests often enough, 
