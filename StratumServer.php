@@ -25,7 +25,7 @@ class StratumServer {
 
     private $connected = false;
 
-    const JOB_FILE = '/full/path/to/where/StratumServer/writes/jobdata/j.txt';
+    const JOB_FILE = '~/j.txt';
 
     /**
      * Connect to the stratum server.
