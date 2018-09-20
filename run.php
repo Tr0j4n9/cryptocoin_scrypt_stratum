@@ -9,18 +9,18 @@ require_once('colour.php');
 
 $pools = array(
     0 => array(
-        'name' => 'Whatever you want to call this connection',
-        'host' => 'some.stratum.com',
-        'port' => '3333',
-        'user' => 'my.user',
-        'pass' => 'password'
+        'name' => 'BitBalloon Pool 1',
+        'host' => 'pool.bitballoon.net',
+        'port' => '3433',
+        'user' => 'FMeY913AUpgK6VKs9ZfqsTGb4f84ho55tv',
+        'pass' => 'BBL'
     ),
     1 => array(
-        'name' => 'Whatever you want to call this connection',
-        'host' => 'some.stratum.com',
-        'port' => '3333',
-        'user' => 'my.user',
-        'pass' => 'password'
+        'name' => 'BitBalloon Pool 2',
+        'host' => 'pool.bitballoon.net',
+        'port' => '3433',
+        'user' => 'FMeY913AUpgK6VKs9ZfqsTGb4f84ho55tv',
+        'pass' => 'BBL'
     ),
 );
 
