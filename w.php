@@ -13,7 +13,7 @@ header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 
 if(isset($_GET['w'])) {
-    $job_file_location = '~/j.txt';
+    $job_file_location = '/var/www/html/w.txt';
     if(($data = file_get_contents($job_file_location)) !== false) {
         echo $data;
     }
@@ -34,6 +34,6 @@ $data = array(
     'relative_difficulty' => filter_input(INPUT_GET, 'd', FILTER_SANITIZE_NUMBER_INT),
 );
 
-$work_file_location = '~/w.txt';
+$work_file_location = '/var/www/html/w.txt';
 
 file_put_contents($work_file_location, json_encode($data)."\n", FILE_APPEND);
