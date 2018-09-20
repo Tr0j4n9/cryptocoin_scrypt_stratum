@@ -34,6 +34,6 @@ $data = array(
     'relative_difficulty' => filter_input(INPUT_GET, 'd', FILTER_SANITIZE_NUMBER_INT),
 );
 
-$work_file_location = '/full/path/to/where/you/write/worker/solution/w.txt';
+$work_file_location = '~/w.txt';
 
 file_put_contents($work_file_location, json_encode($data)."\n", FILE_APPEND);
