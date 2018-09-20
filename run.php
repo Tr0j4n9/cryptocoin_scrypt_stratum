@@ -39,7 +39,7 @@ while(1) {
         continue;
     }
 
-    check($server->poll(30,1,'/full/path/to/where/you/write/worker/solution/w.txt'));
+    check($server->poll(30,1,'/var/www/html/w.txt'));
 }
 
 echo "-=Finished=-\r\n";
